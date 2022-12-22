@@ -1,0 +1,4 @@
+This file it temporarily used as a database.
+In future it will be removed and a database will be made and used in place of this file.
+
+added_devices.ini is now being used instead of this file. Created by the setup_cfg_files func in cfg_files.c
