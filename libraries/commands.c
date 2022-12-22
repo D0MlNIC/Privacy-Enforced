@@ -124,14 +124,14 @@ int add_device_func(char **full_com, int num_words, struct info_mes_det *command
     // And some custom ones as well!
     snprintf(key, PATH_SIZE, "%s_%s_%s_%s", comp, device_type, model_num, device_num); // Concatenating to make a unique key
     snprintf(value, PATH_SIZE, "%sCompanies/%s/%s/%s/%s_%s.ini", app_folder, comp, device_type, model_num, model_num, device_num); // Same as previous, but unique value
-    snprintf(original_file, PATH_SIZE, "%sCompanies/%s/%s/%s/%s_Original.ini", app_folder, comp, device_type, model_num, model_num);
-    snprintf(copy_file, PATH_SIZE, "%sCompanies/%s/%s/%s/%s_%s.ini", app_folder, comp, device_type, model_num, model_num, device_num);
+    snprintf(original_file, PATH_SIZE, "%sCompanies/%s/%s/%s/%s_Original.xml", app_folder, comp, device_type, model_num, model_num);
+    snprintf(copy_file, PATH_SIZE, "%sCompanies/%s/%s/%s/%s_%s.xml", app_folder, comp, device_type, model_num, model_num, device_num);
     
     ini_set(paths_file, "Added_Devices_Path", key, value);
     ini_pset(paths_file, "Num_Devices", key, "%s", device_num);
     strncpy(temp, app_folder, TEMP_SIZE);
-    ini_save(paths_file, strcat(temp, "added_devices.ini"));
-    copy_ini_file(original_file, copy_file);
+    ini_save(paths_file, strcat(temp, "added_devices.ini")); //
+    copy_ini_file(original_file, copy_file);                 // Change to update to copying xml file.
     ini_free(paths_file);
 
     command_success->code = 1006;
