@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:xsi="http://www.w3.org/2001/XMLSchema" name="Ezviz_IP_Camera_C6N" type="Original">
+<root name="Ezviz_IP_Camera_C6N" type="Original">
     <Device_Functions num_functions="1">
-        <Function num="1" name="move_x" num_params="2">
+        <Function id="1" params="2">
+            <name>move_x</name>
             <type>GET</type>
             <secure>0</secure>
             <domain>google.com</domain>
             <path>/hello</path>
-            <param num="1">id</param>
-            <param num="2">hash</param>
+            <param id="1">id</param>
+            <param id="2">hash</param>
         </Function>
     </Device_Functions>
     <Device_Info>
