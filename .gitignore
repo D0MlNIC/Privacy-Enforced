@@ -1,2 +1,5 @@
 include/
 OpenSource/*.pdf
+oldxml.*
+.vscode/launch.json
+.vscode/settings.json
