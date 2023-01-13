@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef MISCALLENOUS_HM
 #define MISCALLENOUS_HM
 

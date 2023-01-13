@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef SERVER_RECEIVER_HM
 #define SERVER_RECEIVER_HM
 

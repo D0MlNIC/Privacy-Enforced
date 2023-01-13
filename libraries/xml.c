@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdint.h>

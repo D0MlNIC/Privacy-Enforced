@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

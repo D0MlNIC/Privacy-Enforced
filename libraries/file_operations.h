@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef FILE_OPERATIONS_HM
 #define FILE_OPERATIONS_HM
 

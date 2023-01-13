@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef MESSAGE_HEADER_HM
 #define MESSAGE_HEADER_HM
 

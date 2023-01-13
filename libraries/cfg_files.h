@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef CFG_FILES_HM
 #define CFG_FILES_HM
 

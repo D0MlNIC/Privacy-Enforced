@@ -1,3 +1,5 @@
+# © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #!/usr/bin/env bash
 
 if [ $# = 1 ]; then

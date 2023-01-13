@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #include <stdio.h>
 #include <string.h>
 #include "mixed.h"

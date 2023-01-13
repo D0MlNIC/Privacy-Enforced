@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 #ifndef COMMANDS_HM
 #define COMMANDS_HM
 

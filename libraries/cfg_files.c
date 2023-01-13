@@ -1,3 +1,5 @@
+// © Copyright 2023, D0MlNIC, All Rights Reserved.
+
 //A /lib file
 #include <string.h>
 #include <stdio.h>
